@@ -1,5 +1,5 @@
-//= require jquery.dataTables.min
-//= require jquery.datatables.fnSetFilteringDelay
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.api.fnSetFilteringDelay
 
 root = exports ? this
   

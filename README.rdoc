@@ -45,6 +45,7 @@ Create Jsonify view with column values for columns listed in aoColumns. View sho
 == Dependencies
 
 This gem uses:
+* jquery-datatables-rails for DataTables itself
 * meta_search for nice search and sort request syntax mapping
 * jsonify for simple output generation 
 
@@ -52,10 +53,6 @@ This gem provides integration with:
 * will_paginate for nice pagination request syntax mapping (not bundled)
 
 Gem works only with rails 3.1 and higher.
-
-Gem includes datatables library and fnSetFilteringDelay plugin so you haven't include it by yourself.
-
-Gem does not include any CSS files. Please use styles from datatables website examples.
 
 == Pagination
 
