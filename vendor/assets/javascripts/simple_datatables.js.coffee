@@ -14,7 +14,7 @@ root.simpleDatatables = ( sSource, aoData, fnCallback ) ->
   bRegex = false;
   iDisplayStart = 0;
   iDisplayLength = 0;
-  data = [];
+  data = aoData;
 
   $.each(aoData, (index, dataObj) -> 
     switch dataObj.name
